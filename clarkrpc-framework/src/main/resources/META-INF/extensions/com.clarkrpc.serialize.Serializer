@@ -1,0 +1,3 @@
+kyro=com.clarkrpc.serialize.kyro.KryoSerializer
+protostuff=com.clarkrpc.serialize.protostuff.ProtostuffSerializer
+hessian=com.clarkrpc.serialize.hessian.HessianSerializer

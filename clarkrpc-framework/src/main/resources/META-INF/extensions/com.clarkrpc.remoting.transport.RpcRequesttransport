@@ -1,0 +1,2 @@
+netty=com.clarkrpc.remoting.transport.netty.client.NettyRpcClient
+socket=com.clarkrpc.remoting.transport.socket.SocketRpcClient
