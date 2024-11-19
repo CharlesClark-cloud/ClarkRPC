@@ -21,10 +21,17 @@ public class ClientController {
 
     @RpcReference(version = "version2",group = "test2")
     CalledService2 calledService2;
+    @GetMapping("/test")
+    public String out3(){
+        String hello = calledService.hello("我的消息");
+
+        return hello;
+    }
 
     @GetMapping("/test1")
     public String out(){
         String hello = calledService.hello("我的消息");
+
         return hello;
     }
 
